@@ -1,0 +1,665 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*主体背景*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb( 255, 255, 255);
+}
+
+
+/*链接样式*/
+
+.navi_bg {
+    background-image: url("../image/nav_bg.jpg");
+    height: 51px;
+    width: 100%;
+    background-size: 100% 51px;
+    margin-top: -73px;
+}
+
+
+/*导航背景*/
+
+.top {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 62px;
+}
+
+
+/*头部导航*/
+
+.QMENU {
+    margin-top: 25px;
+}
+
+
+/*快速导航*/
+
+.COMPANY {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    transform: scale(1, 0.95);
+    -moz-transform: scale(1, 0.95);
+    -webkit-transform: scale(1, 0.95);
+    -ms-transform: scale(1, 0.95);
+    width: 20%;
+}
+
+.BOARD {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    transform: scale(1, 0.95);
+    -moz-transform: scale(1, 0.95);
+    -webkit-transform: scale(1, 0.95);
+    -ms-transform: scale(1, 0.95);
+    width: 20%;
+}
+
+.PORTFOLIO {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    transform: scale(1, 0.95);
+    -moz-transform: scale(1, 0.95);
+    -webkit-transform: scale(1, 0.95);
+    -ms-transform: scale(1, 0.95);
+    width: 20%;
+}
+
+.CONTACT_US {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    transform: scale(1, 0.95);
+    -moz-transform: scale(1, 0.95);
+    -webkit-transform: scale(1, 0.95);
+    -ms-transform: scale(1, 0.95);
+    width: 20%;
+}
+
+.PRODUCTS {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    transform: scale(1, 0.95);
+    -moz-transform: scale(1, 0.95);
+    -webkit-transform: scale(1, 0.95);
+    -ms-transform: scale(1, 0.95);
+    width: 20%;
+}
+
+#logo {
+    position: relative;
+    top: -8px;
+}
+
+
+/*公司logo*/
+
+#main {
+    width: 100%;
+    height: 290px;
+    background: url("../image/main1.jpg");
+    background-size: 100% 290px;
+    margin-top: 10%;
+}
+
+
+/*导航下面的背景*/
+
+.btn {
+    width: 100%;
+    height: 600px;
+}
+
+#COMPANY_OVERVIEW {
+    font-size: 12px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+}
+
+#QUESTION___ANSWERD {
+    font-size: 12px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+}
+
+#PORTFOLIO {
+    font-size: 12px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+}
+
+.the {
+    font-size: 21px;
+    font-family: "Times New Roman";
+    color: rgb( 31, 82, 113);
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.enterp {
+    width: 80%;
+    font-size: 15px;
+    font-family: "Times New Roman";
+    color: rgb( 31, 82, 113);
+    text-transform: uppercase;
+    z-index: 2;
+    position: relative;
+    top: 70px;
+    margin-left: 10px;
+}
+
+.together {
+    width: 80%;
+    font-size: 15px;
+    font-family: "Times New Roman";
+    color: rgb( 31, 82, 113);
+    text-transform: uppercase;
+    z-index: 2;
+    position: relative;
+    top: 75px;
+    margin-left: 10px;
+}
+
+
+/*图片上的字体样式*/
+
+#CUSTOMER_CENTER {
+    font-size: 12px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+}
+
+#COMPANY_OVERVIEW:hover {
+    color: rgb(207, 218, 225);
+}
+
+#QUESTION___ANSWERD:hover {
+    color: rgb(207, 218, 225);
+}
+
+#PORTFOLIO:hover {
+    color: rgb(207, 218, 225);
+}
+
+#CUSTOMER_CENTER:hover {
+    color: rgb(207, 218, 225);
+}
+
+.btnl {
+    width: 40%;
+    color: rgb(136, 136, 136);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*快速导航里面的横线*/
+
+.ccompany {
+    margin-top: 20px;
+}
+
+
+/*合作公司*/
+
+.cooper {
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.left {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*PC端左边的列现在居中*/
+
+.middle {
+    position: relative;
+    top: -25px;
+}
+
+.QUICK_MENU_BG {
+    width: 100%;
+}
+
+.news {
+    width: 100%;
+    position: relative;
+    top: 33px;
+}
+
+#more {
+    position: relative;
+    left: 3%;
+    top: -5px;
+}
+
+
+/*more按钮*/
+
+#new::after {
+    content: "  ";
+    height: 5px;
+    width: 0px;
+    border-left: 2px solid rgb(153, 153, 153);
+}
+
+.notice {
+    font-size: 15px;
+    font-family: "Gulim";
+    color: rgb( 102, 102, 102);
+    line-height: 1.4;
+}
+
+.notice:hover {
+    color: rgb(207, 218, 225);
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    margin-left: 25px;
+    font-size: 10px;
+    color: rgb( 102, 102, 102);
+}
+
+
+/*新闻事件列表*/
+
+.hot {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+
+/*热门产品*/
+
+.hcon {
+    margin-left: -15%;
+}
+
+.cont {
+    margin-left: -10%;
+    margin-top: 15px;
+}
+
+#morei {
+    z-index: 1;
+    margin-left: -40px;
+    position: relative;
+    top: -80px;
+}
+
+
+/*热门产品里的more按钮*/
+
+.ebro {
+    z-index: 1;
+    margin-left: -130px;
+    position: relative;
+    top: -95px;
+}
+
+.Invest {
+    font-size: 15px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+    margin-left: 145px;
+    position: relative;
+    top: -10px;
+}
+
+.Invest:hover {
+    color: rgb( 0, 132, 120);
+}
+
+.HiShow {
+    font-size: 15px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+    margin-left: 145px;
+    position: relative;
+    top: -110px;
+}
+
+
+/*history show*/
+
+.HiShow:hover {
+    color: rgb( 0, 132, 120);
+}
+
+.GNet {
+    font-size: 15px;
+    font-family: "Univecon";
+    color: rgb( 102, 102, 102);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+    margin-left: 145px;
+    position: relative;
+    top: -125px;
+}
+
+
+/*global network*/
+
+.GNet:hover {
+    color: rgb( 0, 132, 120);
+}
+
+.EBro {
+    font-size: 15px;
+    font-family: "Univecon";
+    color: rgb( 0, 132, 120);
+    text-align: left;
+    transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+}
+
+#flag {
+    margin-left: 145px;
+    margin-top: -95px;
+}
+
+.EBro:hover {
+    color: rgb( 0, 132, 120);
+}
+
+.right {
+    width: 100%;
+    float: right;
+}
+
+
+/*pc端的右列现在向下排列*/
+
+.pro {
+    margin-top: 15px;
+}
+
+.pro1 {
+    margin-left: 110px;
+    margin-top: -72px;
+}
+
+
+/*产品1*/
+
+.foot {
+    width: 100%;
+    height: 49px;
+    background: url("../image/footer.jpg");
+    background-size: 100% 49px;
+    margin-top: 710px;
+}
+
+.company {
+    margin-left: 68.5%;
+    margin-top: -17px;
+}
+
+.enter {
+    margin-left: 67.5%;
+    position: relative;
+    top: -18px;
+}
+
+.copyright {
+    position: relative;
+    top: -35px;
+    width: 68%;
+}
+
+.fax {
+    margin-left: 30.3%;
+    position: relative;
+    top: -46px;
+}
+
+
+/*传真*/
+
+.tel {
+    margin-left: 0.3%;
+    position: relative;
+    top: -10px;
+}
+
+
+/*电话*/
+
+#fax {
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    color: rgb( 164, 164, 164);
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 39.3%;
+    position: relative;
+    top: -63px;
+}
+
+#tel {
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    color: rgb( 164, 164, 164);
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 8%;
+    position: relative;
+    top: -28px;
+}
+
+#address {
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    color: rgb( 150, 148, 148);
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: left;
+    position: relative;
+    top: -18px;
+    margin-left: 15%;
+}
+
+
+/*公司地址*/
+
+.pro1s {
+    font-size: 15px;
+    font-family: "Univers";
+    color: rgba( 51, 51, 51, 0.702);
+    text-transform: uppercase;
+    text-align: left;
+    transform: scale(0.9, 1.1);
+    -moz-transform: scale(0.9, 1.1);
+    -webkit-transform: scale(0.9, 1.1);
+    -ms-transform: scale(0.9, 1.1);
+    margin-left: -6%;
+}
+
+.pro1st {
+    font-size: 13px;
+    font-family: "Standard0757";
+    color: rgb( 79, 85, 89);
+    line-height: 1.375;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#pro1 {
+    margin-top: 32px;
+}
+
+.pro2 {
+    margin-left: 110px;
+    margin-top: -72px;
+}
+
+
+/*产品2*/
+
+.pro2s {
+    font-size: 15px;
+    font-family: "Univers";
+    color: rgba( 51, 51, 51, 0.702);
+    text-transform: uppercase;
+    text-align: left;
+    transform: scale(0.9, 1.1);
+    -moz-transform: scale(0.9, 1.1);
+    -webkit-transform: scale(0.9, 1.1);
+    -ms-transform: scale(0.9, 1.1);
+    margin-left: -6%;
+}
+
+.pro2st {
+    font-size: 13px;
+    font-family: "Standard0757";
+    color: rgb( 79, 85, 89);
+    line-height: 1.375;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#pro2 {
+    margin-top: 35px;
+}
+
+.pro3 {
+    margin-left: 110px;
+    margin-top: -72px;
+}
+
+
+/*产品3*/
+
+.pro3s {
+    font-size: 15px;
+    font-family: "Univers";
+    color: rgba( 51, 51, 51, 0.702);
+    text-transform: uppercase;
+    text-align: left;
+    transform: scale(0.9, 1.1);
+    -moz-transform: scale(0.9, 1.1);
+    -webkit-transform: scale(0.9, 1.1);
+    -ms-transform: scale(0.9, 1.1);
+    margin-left: -6%;
+}
+
+.pro3st {
+    font-size: 13px;
+    font-family: "Standard0757";
+    color: rgb( 79, 85, 89);
+    line-height: 1.375;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#pro3 {
+    margin-top: 35px;
+}
+
+.con {
+    width: 100%;
+    text-align: right;
+}
+
+.home {
+    font-size: 12px;
+    font-family: "Kroeger0555";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    padding: 0 5px;
+}
+
+.home:hover {
+    color: rgb( 207, 218, 225);
+}
+
+.contact {
+    font-size: 12px;
+    font-family: "Kroeger0555";
+    color: rgb( 136, 136, 136);
+    text-align: left;
+    padding: 0 5px;
+}
+
+.contact:hover {
+    color: rgb( 207, 218, 225);
+}
+
+.korean {
+    padding: 0 5px;
+}
